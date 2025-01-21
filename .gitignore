@@ -1,0 +1,53 @@
+# General
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.sqlite3
+*.log
+
+# Virtual Environments
+venv/
+env/
+ENV/
+*.env
+.env.*
+
+# Django-specific
+db.sqlite3
+*.pot
+*.pyc
+*.pyo
+*.pyd
+migrations/
+staticfiles/
+media/
+
+# IDEs and Editors
+.idea/
+.vscode/
+*.swp
+*~
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# Coverage Reports
+htmlcov/
+*.cover
+.coverage
+*.coverage.*
+
+# Testing
+.pytest_cache/
+.tox/
+.nox/
+.cache/
+coverage.xml
+nosetests.xml
+output.xml
+reports/
